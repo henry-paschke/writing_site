@@ -1,10 +1,22 @@
+const repo = "writing_site";
 /** @type {import('next').NextConfig} */
 const nextConfig = {
   output: "export",
-  basePath: "/writing_site",
+  trailingSlash: true,
+  basePath: "", // Leave empty if using the root
+  assetPrefix: "",
   images: {
     unoptimized: true,
   },
 };
 
-module.exports = nextConfig;
+export default nextConfig;
+
+// export default {
+//   output: "export",
+//   basePath: `/${repo}`,
+//   assetPrefix: `/${repo}/`,
+//   images: {
+//     unoptimized: true,
+//   },
+// };

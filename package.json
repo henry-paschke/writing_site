@@ -5,9 +5,11 @@
   "homepage": "https://henrypaschke.github.io/writing_site",
   "scripts": {
     "dev": "next dev --turbopack",
-    "build": "next build && next export",
+    "build": "next build",
     "start": "next start",
-    "lint": "next lint"
+    "lint": "next lint",
+    "deploy": "gh-pages -d out",
+    "test": "npm run build && npx serve out"
   },
   "dependencies": {
     "next": "15.3.0",
