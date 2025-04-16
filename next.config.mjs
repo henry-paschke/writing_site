@@ -4,7 +4,7 @@ const nextConfig = {
   output: "export",
   trailingSlash: true,
   basePath: "", // Leave empty if using the root
-  assetPrefix: "",
+  assetPrefix: "/writing_site",
   images: {
     unoptimized: true,
   },
