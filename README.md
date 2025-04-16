@@ -2,7 +2,7 @@
 
 This is an assignment for YSU ENGL 3743 – Intro. to Public, Professional, and Technical Writing, created by Henry Paschke. It explains how to start playing your first song on guitar.
 
-To visit the site, go to [Link here TODO]
+To visit the site, go to [Henry's Guitar Presentation](https://henry-paschke.github.io/writing_site/)
 
 # Tech Stack
 
